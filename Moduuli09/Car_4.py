@@ -24,25 +24,16 @@ def main():
     for i in range(1, 11):
         new_car = Auto(f"ABC-{i}", random.randint(100,200))
         race_cars.append(new_car)
-    while True:
+    goal_reached = True
+    while goal_reached == True:
         for i in race_cars:
-            if i.matka <= 10000:
-                print(i.rekkari)
-                i.kiihdytä(random.randint(-10,15))
-                print(i.nopeus)
-                i.kulje(1)
-                print(i.matka)
-                print("----------")
-            else:
+            i.kiihdytä(random.randint(-10,15))
+            i.kulje(1)
+            if i.matka >= 10000:
+                goal_reached = False
                 break
-
-
-
-
-
-
-
-
-
+    print("Rekisterinumero, Huippunopeus, Nopeus, Kuljettu matka")
+    for i in race_cars:
+        print(f"{i.rekkari}, {i.huippunopeus}km/h, {i.nopeus}km/h, {i.matka}km")
 
 main()
