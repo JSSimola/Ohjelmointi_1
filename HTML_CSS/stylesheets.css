@@ -1,9 +1,46 @@
-header {
-    background-color: gray;
-
-}
-
 section {
     display: flex;
 }
+body {
+    width: auto;
 
+}
+.main-boxes {
+    width: 70%;
+    padding: 10%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.main-menu {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    background-color: blue;
+    justify-content: flex-start;
+    box-sizing: border-box;
+
+
+}
+
+.main-menu-buttons {
+    display: flex;
+    background-color: slateblue;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1%;
+    
+
+}
+
+.main-page {
+    background-color: yellow;
+}
+
+.main-page img{
+    background-color: yellow;
+    max-width: 50%;
+}
