@@ -1,46 +1,94 @@
-section {
-    display: flex;
+html {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
+    margin: auto;
+    align-content: center;
+    margin-bottom: 10%;
+    height: fit-content;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: #CCD5AE;
+    box-sizing: border-box;
+    margin-bottom: auto;
+    padding: 0 10% 0 10%;
+    align-items: center;
+}
+
+.index-main-layout {
+    background-color: white;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 0%;
+}
+
+.main-header {
+    background-color: #E9EDC9;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    background-color: bisque;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 10rem;
+    justify-content: center;
     width: auto;
-
+    padding: 0 5rem 0 5rem;
 }
-.main-boxes {
-    width: 70%;
-    padding: 10%;
+
+.header-logo img{
+    width: fit-content;
+    height: auto;
+    max-height: 5rem;
     box-sizing: border-box;
-    justify-content: center;
 }
 
-.main-menu {
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    background-color: blue;
-    justify-content: flex-start;
-    box-sizing: border-box;
-
-
-}
-
-.main-menu-buttons {
-    display: flex;
-    background-color: slateblue;
+.header-buttons {
     justify-content: space-evenly;
+    display: flex;
     list-style: none;
-    padding: 1%;
-    
-
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
 }
 
-.main-page {
-    background-color: yellow;
+.header-buttons li{
+    padding: 2rem;
+    align-items: end;
 }
 
-.main-page img{
-    background-color: yellow;
-    max-width: 50%;
+
+.section-content {
+    background-color: #FEFAE0;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 10%;
+    padding-bottom: 90%;
+    align-items: center;
+    text-align: center;
+}
+
+.section-content h1{
+    padding-top: 0%;
+    font-size: 200%;
+}
+
+.section-content p{
+    padding: 0 20% 0 20%;
+}
+
+
+.section-content img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 5% 0 5%;
 }
