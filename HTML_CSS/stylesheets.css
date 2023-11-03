@@ -1,12 +1,9 @@
-html {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
     margin: auto;
     align-content: center;
     margin-bottom: 10%;
     height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a, a:visited {
