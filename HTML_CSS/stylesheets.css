@@ -221,3 +221,7 @@ a, a:visited {
     align-items: center;
     text-align: center;
 }
+
+.hide {
+    display: none;
+}
