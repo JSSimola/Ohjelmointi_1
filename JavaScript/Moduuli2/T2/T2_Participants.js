@@ -8,6 +8,8 @@ for (let i = 0; i < num_ppl; i++) {
   ppl[i] = prompt('Anna osallistujan nimi: ');
 }
 
+ppl.sort()
+
 for (let i = 0; i < ppl.length; i++) {
   let list_item = document.createElement('li');
   list_item.innerHTML = ppl[i];
