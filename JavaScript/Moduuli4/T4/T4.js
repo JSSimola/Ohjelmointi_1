@@ -21,6 +21,7 @@ function printer(info) {
     //adding the header
     header.append(document.createTextNode(item.show.name));
     //adding the image
+    image.src = 'https://via.placeholder.com/210x295?text=Not%20Found';
     image.src = item.show.image ? item.show.image.medium : 'https://via.placeholder.com/210x295?text=Not%20Found';
     image.alt = item.show.name;
     //adding the link
